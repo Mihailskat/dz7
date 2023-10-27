@@ -1,0 +1,6 @@
+A = [1, 2, 3, 4, 5]
+B = [3, 7, 9, 4, 8]
+sum1 = lambda x, y: x+y
+
+N = list(map(sum1, A, B))
+print(N)
