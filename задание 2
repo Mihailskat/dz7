@@ -1,0 +1,5 @@
+A = [13, 26, 45, 38, 95, 11, 100, 52]
+
+ftl = lambda x: x%13==0 or x%19==0
+B = list(filter(ftl, A))
+print(B)
